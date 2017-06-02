@@ -1,0 +1,13 @@
+.general-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh 10vh auto 10vh;
+    
+}
+
+.agregar{
+    display: grid;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 3vh;
+}
