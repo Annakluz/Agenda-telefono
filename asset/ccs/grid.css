@@ -5,6 +5,14 @@
     
 }
 
+.numeroContactos{
+    display: grid;
+    align-items: center;
+   
+    
+    
+}
+
 .agregar{
     display: grid;
     align-items: center;

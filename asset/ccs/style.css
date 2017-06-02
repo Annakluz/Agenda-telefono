@@ -1,4 +1,41 @@
+.textonavbar{
+    padding: 2vw;
+}
+    
+}
 .botones{
    display: inline-block; 
     
 }
+
+.numeroContactos{
+    background: #35383B;
+    padding-left: 2vw
+}
+
+.textocontador{
+    background-color: black;
+    font-size: 1em;
+    color:white;
+    width: 20vw;
+    height: 9vh;
+    padding: 1vh;
+    border-radius: 2vh;
+}
+
+.contador{
+    color:white;
+}
+
+.contactoAgregado{
+    background-color: white;
+    width: 25vw;
+    height: 15vh;
+    padding: 2vh;
+    border-radius: 2vh;
+}
+
+.listadeContactos{
+    padding: 2vw;
+}
+
