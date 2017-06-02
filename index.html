@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>AGENDA</title>
     <link rel="stylesheet" href="asset/ccs/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="asset/ccs/main.css">
     <link rel="stylesheet" href="asset/ccs/grid.css">
     <link rel="stylesheet" href="asset/ccs/style.css">
 </head>
+
 <body>
-  <div class="general-container">
-      <nav class="telefono-nav nav-extended">
-      <div class="nav-wrapper">
-      <a href="#" class="brand-logo">TELEFONO</a>
+    <div class="general-container">
+        <nav class="telefono-nav nav-extended">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">TELEFONO</a>
+
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab"><a href="#test1">Contactos</a></li>
+                    <li class="tab"><a class="active" href="#test2">WHATS</a></li>
+                    <li class="tab"><a href="#test4">AGENDA</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="contador"></div>
+        <section class="listadeContactos"></section>
+        <footer class="agregar">
+            <a class="btn-floating btn-large waves-effect waves-light red " href="#modal1"><i class="material-icons">add</i></a>
+        </footer>
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <form action="" class="datosContacto col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="icon_telephone" type="tel" class="validate">
+                        <label for="icon_telephone">Telephone</label>
+                        <div class="modal-footer">
+                            <div class="botones">
+                                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">add</i></a>
+                                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">delete</i></a>
+                            </div>
+                      
+                        </div>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
 
     </div>
-    <div class="nav-content">
-      <ul class="tabs tabs-transparent">
-        <li class="tab"><a href="#test1">Contactos</a></li>
-        <li class="tab"><a class="active" href="#test2">WHATS</a></li>
-        <li class="tab"><a href="#test4">AGENDA</a></li>
-      </ul>
-    </div>
-      </nav>
-      <div class="contador"></div>
-      <section class="listadeContactos"></section>
-      <footer class="agregar">
-          <a class="btn-floating btn-large waves-effect waves-light red " href="#modal1"><i class="material-icons">+</i></a>
-      </footer>
-      <!-- Modal Structure -->
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>ANNA KARINA</h4>
-      <p>54545</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agregar</a>
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
-    </div>
-  </div>
-          
-  </div>
-  
-   <script src="asset/js/jquery-3.2.1.min.js"></script>
+
+    <script src="asset/js/jquery-3.2.1.min.js"></script>
     <script src="asset/js/materialize.min.js"></script>
     <script src="asset/js/app.js"></script>
 </body>
+
 </html>
