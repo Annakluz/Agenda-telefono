@@ -10,14 +10,16 @@
 
 .numeroContactos{
     background: #35383B;
-    padding-left: 2vw
+    padding-left: 2vw;
+    display: grid;
+    justify-items: center;
 }
 
 .textocontador{
     background-color: black;
     font-size: 1em;
     color:white;
-    width: 20vw;
+    width: 70%;
     height: 9vh;
     padding: 1vh;
     border-radius: 2vh;
@@ -29,7 +31,7 @@
 
 .contactoAgregado{
     background-color: white;
-    width: 25vw;
+    width:80%;
     height: 15vh;
     padding: 2vh;
     border-radius: 2vh;
@@ -38,5 +40,7 @@
 
 .listadeContactos{
     padding: 2vw;
+    display: grid;
+    justify-items: center;
 }
 
